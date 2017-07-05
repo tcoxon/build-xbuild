@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle build-xbuild",
+        "command": "build-xbuild:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "build-xbuild",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "build-xbuild:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
