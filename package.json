@@ -10,6 +10,7 @@
     "c#",
     "csharp"
   ],
+  "main": "lib/provider.js",
   "providedServices": {
     "builder": {
       "versions" : {
@@ -24,6 +25,5 @@
   },
   "dependencies": {
     "glob": "^6.0.1"
-  },
-  "main": "lib/main.js"
+  }
 }
